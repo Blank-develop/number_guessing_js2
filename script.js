@@ -53,7 +53,7 @@ document.querySelector('.check').addEventListener('click', function () {
     } else {
       // document.querySelector('.message').textContent = '💥 You lost the game!';
       displayMessage('💥 You lost the game!');
-      alert(guess);
+      alert(secretNumber);
       document.querySelector('.score').textContent = 0;
     }
   }
